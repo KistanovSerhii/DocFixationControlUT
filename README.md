@@ -1,4 +1,4 @@
-# DocFixationControl
+# DocFixationControlUT
 + Расширение для 1С УТ
 
 # Контекст
