@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="c7474a06-7d0e-4417-b535-09da55497f05">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АлкогольДополнительныеСведения" category="Object">
+				<xr:TypeId>9c2b917e-fc24-4460-819b-49b865c692ae</xr:TypeId>
+				<xr:ValueId>817301ec-a08f-4db0-8b56-ce37d90914bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АлкогольДополнительныеСведения" category="Ref">
+				<xr:TypeId>81a28757-e0e7-494b-9b19-d3676a1409fb</xr:TypeId>
+				<xr:ValueId>6d3cdcc2-aa20-4e83-8c8e-c5eb01b17127</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АлкогольДополнительныеСведения" category="Selection">
+				<xr:TypeId>2d8a9b89-ac6f-4a95-af6a-ca946bd9bb13</xr:TypeId>
+				<xr:ValueId>d061024d-f482-4d76-9d71-57e5b76e761e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АлкогольДополнительныеСведения" category="List">
+				<xr:TypeId>fc1343c1-7d3c-46e6-8395-87fd2bbd27ab</xr:TypeId>
+				<xr:ValueId>b5aede8c-7eda-4b69-a54e-9158344e7da9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АлкогольДополнительныеСведения" category="Manager">
+				<xr:TypeId>04ff93ca-8a0f-420a-a47f-62aae9e0a8a6</xr:TypeId>
+				<xr:ValueId>b4bff423-d603-48e4-926e-5ec607dff322</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АлкогольДополнительныеСведения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c26bbb60-80c6-4532-a083-1bc1f2138797</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f2aa59cd-b33d-41ed-b5ee-6d918953fadc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГодУрожая</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8571875f-6020-402d-b013-727a012c1f2b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
